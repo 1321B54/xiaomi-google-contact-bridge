@@ -1,0 +1,50 @@
+# Build output and caches
+.gradle/
+**/build/
+**/outputs/
+local.properties
+*.apk
+*.aab
+
+# Local tool / work directories
+work/
+.state/
+.workspaces/
+.cache/
+**/.cache/
+
+# Credentials, keys and secrets
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.bks
+.env
+.env.*
+credentials*
+secrets*
+*.token
+*.kdbx
+
+# Device logs and database dumps
+*.log
+logcat*.txt
+**/logs/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+dumps/
+dump/
+
+# IDE / OS noise
+.idea/
+*.iml
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
